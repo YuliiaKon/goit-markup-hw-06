@@ -1,0 +1,24 @@
+printWidth	100
+tabWidth	2
+useTabs	false
+semi	true
+singleQuote	true
+trailingComma	"es5"
+bracketSpacing	true
+jsxBracketSameLine	false
+arrowParens	"avoid"
+proseWrap	"always"
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
