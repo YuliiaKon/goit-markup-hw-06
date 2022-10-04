@@ -446,13 +446,12 @@
 <div class="footer-subscribe">
     <h2 class="footer-title subscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2> 
 <form class="footer-subscribe-form">
-    <lable form="subscribe">
+    <lable class="subscribe">
         <span class="footer-subscribe-form-wrapper">
         <input class="footer-subscribe-input"
         type="email"
-        id="subscribe"
+        
         name="mail-subscribe"
-        class="footer-subscribe-mail"
         required
         pattern="[email regex]"
         placeholder="E-mail"
@@ -480,16 +479,15 @@
                 </svg>
             </button>
 
-            
+
 <p class="modal-caption">Залиште свої дані, ми вам передзвонимо</p>
 <form class="modal-form">
     <label class="modal-form-field">
     <span class="modal-form-field-desc">Імʼя*</span>
     <span class="modal-form-input-wrapper">
-    <input 
+    <input class="modal-form-input" 
     name="user_name"
     type="text" 
-    class="modal-form-input" 
     required
     pattern="[a-zA-Zа-яА-ЯіІїЇ]+"
     />
@@ -503,10 +501,9 @@
     <label class="modal-form-field">
     <span class="modal-form-field-desc">Телефон</span>
     <span class="modal-form-input-wrapper">
-    <input 
+    <input class="modal-form-input" 
     name="user_phone_number" 
     type="tel" 
-    class="modal-form-input" 
     pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" 
     title="xxx-xxx-xx-xx" 
     required 
@@ -521,10 +518,9 @@
     <label class="modal-form-field">
     <span class="modal-form-field-desc">Пошта</span>
     <span class="modal-form-input-wrapper">
-    <input 
+    <input class="modal-form-input" 
     type="email"
     name="user_mail"  
-    class="modal-form-input"
     required 
     pattern="[email regex]" 
     />
@@ -536,9 +532,8 @@
 
     <label class="modal-form-field">
     <span class="modal-form-field-desc">Коментар</span>
-    <textarea 
+    <textarea class="modal-form-message" 
     name="user_message" 
-    class="modal-form-message" 
     placeholder="Введіть текст" 
     ></textarea>
     </label>
