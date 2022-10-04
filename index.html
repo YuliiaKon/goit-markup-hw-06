@@ -442,9 +442,36 @@
                     </li>
                 </ul>
             </div>
+<!-- ПІДПИСКА -->
+<div class="footer-subscribe">
+    <h2 class="footer-title subscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2> 
+<form class="footer-subscribe-form">
+    <lable form="subscribe">
+        <span class="footer-subscribe-form-wrapper">
+        <input class="footer-subscribe-input"
+        type="email"
+        id="subscribe"
+        name="mail-subscribe"
+        class="footer-subscribe-mail"
+        required
+        pattern="[email regex]"
+        placeholder="E-mail"
+    >
+    <svg class="footer-subscribe-icon" width="24" height="24">
+        <use href="./img/icons.svg#icon-icon-send"></use>
+    </svg>
+</span>
+</lable>
+     <button type="submit" class="footer-subscribe-btn">Підписатися</button>
+</form>
+</div>
+
         </div>
     </footer>
 
+
+
+<!-- ФОРМА ДЛЯ ЗАПОВнЕННЯ-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
@@ -453,7 +480,7 @@
                 </svg>
             </button>
 
-<!-- ФОРМА ДЛЯ ЗАПОВнЕННЯ-->
+            
 <p class="modal-caption">Залиште свої дані, ми вам передзвонимо</p>
 <form class="modal-form">
     <label class="modal-form-field">
