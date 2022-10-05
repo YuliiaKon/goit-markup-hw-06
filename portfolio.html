@@ -17,7 +17,7 @@
 
 <body class="body">
     <header class="page-header">
-        <div class="container page-header-container">
+        <div class="container page-header_container">
             <nav class="page-navigation">
                 <a href="./index.html" class="logo cursor"><span class="web">Web</span><span
                         class="studio">Studio</span></a>
@@ -27,6 +27,7 @@
                     <li><a href="" class="nav-text">Контакти</a></li>
                 </ul>
             </nav>
+
             <ul class="page-header-contact list">
                 <li><a class="mail-header" href="mailto:info@devstudio.com">
                         <svg class="header-mail-icon" width="16" height="12">
@@ -39,6 +40,7 @@
                         </svg>
                         +38 096 111 11 11</a></li>
             </ul>
+
         </div>
     </header>
 
@@ -300,22 +302,23 @@
                 </ul>
             </div>
 
-            <!-- ПІДПИСКА -->
-            <div class="footer-subscribe">
-                <h2 class="footer-title subscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
-                <form class="footer-subscribe-form">
-                    <lable form="subscribe">
-                        <span class="footer-subscribe-form-wrapper">
-                            <input class="footer-subscribe-input" type="email" id="subscribe" name="mail-subscribe"
-                                class="footer-subscribe-mail" required pattern="[email regex]" placeholder="E-mail">
-                            <svg class="footer-subscribe-icon" width="24" height="24">
-                                <use href="./img/icons.svg#icon-icon-send"></use>
-                            </svg>
-                        </span>
-                    </lable>
-                    <button type="submit" class="footer-subscribe-btn">Підписатися</button>
-                </form>
-            </div>
+<!-- ПІДПИСКА -->
+<div class="footer-subscribe">
+    <h2 class="footer-title subscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+    <form class="footer-subscribe-form">
+        <lable class="subscribe">
+            <span class="footer-subscribe-form-wrapper">
+                <input class="footer-subscribe-input" type="email" name="mail-subscribe" required
+                    pattern="[email regex]" placeholder="E-mail">
+
+            </span>
+        </lable>
+        <button type="submit" class="footer-subscribe-btn">Підписатися<svg class="footer-subscribe-icon" width="24"
+                height="24">
+                <use href="./img/icons.svg#icon-icon-send"></use>
+            </svg></button>
+    </form>
+</div>
         </div>
     </footer>
 
