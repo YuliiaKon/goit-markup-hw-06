@@ -314,6 +314,7 @@ button {
     font-size: 16px;
     line-height: 1.87;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     min-width: 216px;
@@ -330,6 +331,7 @@ button {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .button-primery:hover {
     color: #FFFFFF;
